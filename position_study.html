@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        body{
+            padding-top: 100px;
+            padding-left: 60px;
+        }
+        .header{
+            height: 100px;
+            background-color: black;
+            color: gold;
+            font-size: 20px;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+        }
+        .sidebar{
+            position: fixed;
+            background-color: chocolate;
+            left: 0px;
+            width: 55px;
+            top:100px;
+            bottom: 0px;
+        }
+        .data{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+   
+        <div class="header">Header</div>
+        <div class="sidebar">Side-Bar</div>
+         <div class="data">
+            <div style="background-color: rgb(44, 112, 172); height: 400px;"></div>
+            <div style="background-color: rgb(101, 5, 120); height: 400px;"></div>
+            <div style="background-color: rgb(18, 219, 122); height: 400px;"></div>
+            <div style="background-color: rgb(239, 144, 11); height: 400px;"></div>
+            <div style="background-color: rgb(247, 53, 253); height: 400px;"></div>
+            <div style="background-color: rgb(12, 222, 96); height: 400px;"></div>
+         </div>
+    
+</body>
+</html>

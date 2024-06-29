@@ -1,0 +1,118 @@
+
+
+
+
+.header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height: 45px;
+    position: fixed;
+    height: 80px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 100;
+    margin-bottom: 15px;
+}
+.left-section{
+    
+    display: flex;
+    align-items: center;
+}
+.menu{
+    width: 40px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+.logo{
+    width: 50px;
+}
+.middle-section{
+    
+    flex: 1;
+    margin-left: 50px;
+    margin-right: 26px;
+    max-width: 600px;
+    display:flex;
+align-items: center;}
+.ser{
+    height: 35px;
+    flex: 1;
+    font-size: 20px;
+    border: 1px solid  rgb(237, 232, 232);
+    
+}
+.ser::placeholder{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.search-icon{
+    height: 40px;
+    margin-left: -1px;
+    margin-right: 15px;
+    border: 1px solid rgb(237, 232, 232);
+    position: relative;
+}
+.search-icon p,.voice-search p{
+    position:absolute;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    right: 0px;
+    font-size: 15px;
+    bottom: -45px;
+   pointer-events: none;
+   white-space: nowrap;
+    opacity: 0;
+}
+.search-icon:hover p,.voice-search:hover p{
+    opacity: 1;
+}
+.search-img{
+   
+  height: 100%;
+    
+}
+.voice-search{
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+}
+.voice-img{
+   height: 70%;
+   
+}
+.Right-section{
+   margin-right: 20px;
+    width:250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+
+}
+.recorder,.apps,.notifi,.profile-pic{
+    height: 40px;
+   
+}
+.notifi{
+    height: 60px;
+}
+.profile-pic{
+    border-radius: 50%;
+}
+.notification{
+    position: relative;
+}
+.notifi-num{
+    position: absolute;
+    padding: 5px;
+    top: -5px;
+    right: -7px;
+    font-size: 15px;
+    border-radius: 50%;
+    color: white;
+    background-color: red;
+}

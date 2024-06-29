@@ -1,0 +1,75 @@
+.button.first{
+    background-color: rgb(210, 24, 24);
+    border:none;
+    color: white;
+    height: 30px;
+    width: 105px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    vertical-align: baseline;
+    transition: opacity 0.15s;
+}
+.button.first:hover{
+    opacity: 0.8;
+}
+.button.first:active{
+    opacity: 0.3;
+}
+.button.second{
+    background-color: rgb(233, 233, 48);
+    color: rgb(1, 17, 24);
+   border:none;
+   width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    vertical-align: baseline;
+    margin-right: 10px;
+    transition:opacity 0.15s,background-color 0.2s,
+                    box-shadow 0.15s;
+}
+.button.second:hover{
+    background-color: yellow;
+    box-shadow: 5px 12px 20px rgba(0, 0, 0,0.5);
+}
+.button.second:active{
+  opacity: 0.2;
+}
+.button.third{
+    background-color: white;
+    border: 1px solid;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color:green;
+    vertical-align: baseline;
+    height: 36px;
+    width: 70px;
+    cursor: pointer;
+    transition: background-color 0.15s,color 0.15s,
+                    opacity 0.15s;
+
+}
+.button.third:hover{
+    background-color: green;
+    color: white;
+    border: none;
+}
+.button.third:active{
+    opacity: 0.5;
+}
+.item{
+    font-size: 26px;
+   font-weight: bold;
+}
+.price{
+    font-weight: bold;
+    color:green
+}
+.amazon_in:hover{
+    color:green;
+}
+.amazon_in:active{
+    opacity: 0.8;
+}
